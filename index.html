@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker | Professional Edition</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+
+    <div id="offlineBanner">You are currently offline. Please check your connection.</div>
+
+    <div class="container">
+        <h1>Weather Tracker</h1>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button id="searchBtn">Search</button>
+            <button id="locationBtn">📍</button>
+        </div>
+
+        <div id="weatherDisplay">
+            <p class="status">Enter a city to get started.</p>
+        </div>
+
+        <div id="historySection">
+            <h3>Recent Searches</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
